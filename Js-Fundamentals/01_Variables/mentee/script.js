@@ -23,8 +23,12 @@ let firstName = "Harim";
 let age = 22;
 let favoriteColor = "blue";
 
+console.log(firstName);
+console.log(age);
+console.log(favoriteColor);
+
 console.log(
-  `"My name is ${firstName}, I am ${age} years old, and my favorite color is ${favoriteColor}."`
+  `My name is ${firstName}, I am ${age} years old, and my favorite color is ${favoriteColor}.`
 );
 
 // ==============================================
@@ -42,6 +46,14 @@ console.log(
 // STEP 9: Use console.log to print a new message:
 //         "Now, my favorite color is ___."
 
+let currentColor = "red";
+
+console.log(`At first, my favorite color was ${currentColor}.`);
+
+currentColor = "blue";
+
+console.log(`Now, my favorite color is ${currentColor}.`);
+
 // ==============================================
 // TASK 3 – SENTENCE WITH TEMPLATE LITERALS
 // ==============================================
@@ -56,6 +68,12 @@ console.log(
 //          Store this in a variable called introduction.
 
 // STEP 13: console.log() the introduction variable to see your message.
+
+let personName = "James";
+let personAge = 30;
+let introduction = `Hi, my name is ${personName} and I am ${personAge} years old.`;
+
+console.log(introduction);
 
 // ==============================================
 // TASK 4 – let VS const
@@ -76,3 +94,15 @@ console.log(
 //          in another line of code.
 //          Hint: This should cause an error in the console.
 //          (This shows that const cannot be reassigned.)
+
+let mood = "happy";
+
+console.log(mood);
+
+mood = "excited";
+
+console.log(mood);
+
+const birthYear = 1995;
+
+// birthYear = 1990;
