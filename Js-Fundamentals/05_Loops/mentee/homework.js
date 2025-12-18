@@ -23,3 +23,11 @@
 
 // STEP 5: After finishing, try changing baseNumber to a new number
 //         and see the new table in the console.
+
+let baseNumber = 3;
+
+console.log(`--- MULTIPLICATION TABLE FOR ${baseNumber} ---`);
+
+for (let currentMultiplier = 1; currentMultiplier <= 10; ++currentMultiplier) {
+  console.log(`${baseNumber} x ${currentMultiplier} = ${baseNumber * currentMultiplier}`);
+}

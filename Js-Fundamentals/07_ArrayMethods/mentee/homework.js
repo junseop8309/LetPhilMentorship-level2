@@ -30,3 +30,27 @@
 //         (task.length > 15)
 
 // STEP 8: Log longTasks to see which tasks were kept.
+
+let tasks = ["Study JavaScript", "Drink water", "Go for a walk"];
+
+console.log(tasks);
+
+tasks.push("Go to Sleep");
+
+console.log(tasks);
+
+tasks.unshift("priority");
+
+console.log(tasks);
+
+let removedTask = tasks.pop();
+
+console.log(removedTask);
+
+tasks.forEach((task, idx) => {
+  console.log(`${idx+1}. ${task}`);
+});
+
+let longTasks = tasks.filter((task) => task.length > 15);
+
+console.log(longTasks);
